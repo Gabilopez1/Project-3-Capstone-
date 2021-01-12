@@ -22,7 +22,7 @@ from azureml.core import Model
 
 def init():
     global daone
-    model_path = Model.get_model_path('best-automl.pkl')
+    model_path = os.path.join(os.getenv('AZUREML_MODEL_DIR'), 'best-automl-run.pkl')
     daone = joblib.load(model_path)
 
 def run(data):
@@ -35,6 +35,3 @@ def run(data):
     except Exception as e:
         error = str(e)
         return error
-# -
-
-
