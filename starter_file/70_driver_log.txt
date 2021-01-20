@@ -1,0 +1,50 @@
+2021/01/20 17:55:03 Attempt 1 of http call to http://10.0.0.4:16384/sendlogstoartifacts/info
+2021/01/20 17:55:03 Attempt 1 of http call to http://10.0.0.4:16384/sendlogstoartifacts/status
+[2021-01-20T17:55:04.514634] Entering context manager injector.
+[context_manager_injector.py] Command line Options: Namespace(inject=['ProjectPythonPath:context_managers.ProjectPythonPath', 'RunHistory:context_managers.RunHistory', 'TrackUserError:context_managers.TrackUserError'], invocation=['train.py', '--C', '0.2', '--max_iter', '1'])
+Script type = None
+Starting the daemon thread to refresh tokens in background for process with pid = 103
+Entering Run History Context Manager.
+/azureml-envs/azureml_a1736710baabf05d37337a101fa8d6d1/lib/python3.6/site-packages/urllib3/util/retry.py:439: DeprecationWarning: Using 'method_whitelist' with Retry is deprecated and will be removed in v2.0. Use 'allowed_methods' instead
+  DeprecationWarning,
+[2021-01-20T17:55:09.259906] Current directory: /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-135500/azureml/hd_3e796d7f-7340-4444-b159-1c8e871c374b_2/mounts/workspaceblobstore/azureml/HD_3e796d7f-7340-4444-b159-1c8e871c374b_2
+[2021-01-20T17:55:09.260078] Preparing to call script [train.py] with arguments:['--C', '0.2', '--max_iter', '1']
+[2021-01-20T17:55:09.260154] After variable expansion, calling script [train.py] with arguments:['--C', '0.2', '--max_iter', '1']
+
+/azureml-envs/azureml_a1736710baabf05d37337a101fa8d6d1/lib/python3.6/site-packages/urllib3/util/retry.py:439: DeprecationWarning: Using 'method_whitelist' with Retry is deprecated and will be removed in v2.0. Use 'allowed_methods' instead
+  DeprecationWarning,
+Starting the daemon thread to refresh tokens in background for process with pid = 103
+
+
+[2021-01-20T17:55:21.385385] The experiment failed. Finalizing run...
+/azureml-envs/azureml_a1736710baabf05d37337a101fa8d6d1/lib/python3.6/site-packages/urllib3/util/retry.py:439: DeprecationWarning: Using 'method_whitelist' with Retry is deprecated and will be removed in v2.0. Use 'allowed_methods' instead
+  DeprecationWarning,
+Cleaning up all outstanding Run operations, waiting 900.0 seconds
+2 items cleaning up...
+Cleanup took 5.483815670013428 seconds
+Starting the daemon thread to refresh tokens in background for process with pid = 103
+Traceback (most recent call last):
+  File "train.py", line 66, in <module>
+    main()
+  File "train.py", line 56, in main
+    model = LogisticRegression(C=args.C, max_iter=args.max_iter).fit(x_train, y_train)
+  File "/azureml-envs/azureml_a1736710baabf05d37337a101fa8d6d1/lib/python3.6/site-packages/sklearn/linear_model/_logistic.py", line 1527, in fit
+    accept_large_sparse=solver != 'liblinear')
+  File "/azureml-envs/azureml_a1736710baabf05d37337a101fa8d6d1/lib/python3.6/site-packages/sklearn/utils/validation.py", line 755, in check_X_y
+    estimator=estimator)
+  File "/azureml-envs/azureml_a1736710baabf05d37337a101fa8d6d1/lib/python3.6/site-packages/sklearn/utils/validation.py", line 578, in check_array
+    allow_nan=force_all_finite == 'allow-nan')
+  File "/azureml-envs/azureml_a1736710baabf05d37337a101fa8d6d1/lib/python3.6/site-packages/sklearn/utils/validation.py", line 60, in _assert_all_finite
+    msg_dtype if msg_dtype is not None else X.dtype)
+ValueError: Input contains NaN, infinity or a value too large for dtype('float64').
+
+[2021-01-20T17:55:27.038057] Finished context manager injector with Exception.
+2021/01/20 17:55:31 Failed to parse control script error: /mnt/batch/tasks/workitems/96862ce9-96a3-4bb5-9e33-ccc8bcac6a44/job-1/hd_3e796d7f-7340-444_28e725a1-3e6e-4bdb-b63e-b13885ca10de/wd/runTaskLetTask_error.json to json File /mnt/batch/tasks/workitems/96862ce9-96a3-4bb5-9e33-ccc8bcac6a44/job-1/hd_3e796d7f-7340-444_28e725a1-3e6e-4bdb-b63e-b13885ca10de/wd/runTaskLetTask_error.json doesn't exist
+2021/01/20 17:55:31 Failed to run the wrapper cmd with err: exit status 1
+2021/01/20 17:55:31 Attempt 1 of http call to http://10.0.0.4:16384/sendlogstoartifacts/status
+2021/01/20 17:55:31 mpirun version string: {
+Intel(R) MPI Library for Linux* OS, Version 2018 Update 3 Build 20180411 (id: 18329)
+Copyright 2003-2018 Intel Corporation.
+}
+2021/01/20 17:55:31 MPI publisher: intel ; version: 2018
+2021/01/20 17:55:31 Process Exiting with Code:  1
