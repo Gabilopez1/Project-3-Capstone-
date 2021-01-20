@@ -23,7 +23,8 @@ ds = Dataset.Tabular.from_delimited_files(path=web_path, separator=';')
 
 run = Run.get_context()
 
-
+#df.style.set_precision(2)
+# x_df["alcohol"] = x_df.alcohol.style.set_precision(3)
 def clean_data(data):
     
 
