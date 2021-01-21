@@ -21,21 +21,24 @@ web_path="https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality
 ds = Dataset.Tabular.from_delimited_files(path=web_path, separator=';')
 
 
+print(ds.to_pandas_dataframe())
+
 run = Run.get_context()
 
-#df.style.set_precision(2)
-# x_df["alcohol"] = x_df.alcohol.style.set_precision(3)
 def clean_data(data):
     
 
     # Clean and one hot encode data
-    x_df = data.to_pandas_dataframe()
+    x_df = data.to_pandas_dataframe().dropna()
+    
  
     y_df = x_df.pop("quality")
     
     return x_df, y_df
 
 x, y = clean_data(ds)
+
+print(x.describe())
 
 # TODO: Split data into train and test sets.
 
