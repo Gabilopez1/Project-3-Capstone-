@@ -6,7 +6,7 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, I crea
 ## Dataset
 
 ### Overview
-*TODO*: Explain about the data you are using and where you got it from.
+The data you are using is related to red variants of the Portuguese "Vinho Verde" wine.  and I got it from UC Irvine Machine Learning Repository
 
 ### Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
