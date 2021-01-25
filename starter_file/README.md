@@ -1,5 +1,3 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
 # Red Wine Quality Data Set
 
 This project is part of the Udacity Azure ML Nanodegree. In this project, I created two models: one using Automated ML 0 and one customized model whose hyperparameters are tuned using HyperDrive. The main objetive is to compare compare the performance of both the models and deploy the best performing model.
