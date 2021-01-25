@@ -2,10 +2,7 @@
 
 # Your Project Title Here
 
-*TODO:* Write a short introduction to your project.
-
-## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
+This project is part of the Udacity Azure ML Nanodegree. In this project, we build   and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model. This model is then compared to an Azure AutoML run.
 
 ## Dataset
 
