@@ -1,6 +1,6 @@
 # Portuguese Red Wine Quality Data Set
 
-This project is part of the Udacity Azure ML Nanodegree. In this project, I created two models: one using Automated ML and one customized model whose hyperparameters are tuned using HyperDrive. The main objetive is to compare compare the performance of both the models and deploy the best performing model.
+This project is part of the Udacity Azure ML Nanodegree. In this project, two models were created: one using Automated ML and one customized model whose hyperparameters are tuned using HyperDrive. The main objetive is to compare compare the performance of both the models and deploy the best performing model.
 
 
 ## Dataset
