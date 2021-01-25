@@ -2,7 +2,8 @@
 
 # Your Project Title Here
 
-This project is part of the Udacity Azure ML Nanodegree. In this project, we build   and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model. This model is then compared to an Azure AutoML run.
+This project is part of the Udacity Azure ML Nanodegree. In this project, I created two models: one using Automated ML 0 and one customized model whose hyperparameters are tuned using HyperDrive. The main objetive is to compare compare the performance of both the models and deploy the best performing model.
+
 
 ## Dataset
 
