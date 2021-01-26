@@ -1,12 +1,14 @@
 # Portuguese Red Wine Quality Data Set
 
-This project is part of the Udacity Azure ML Nanodegree. In this project, two models were created: one using Automated ML and one customized model whose hyperparameters are tuned using HyperDrive. The main objetive is to compare compare the performance of both the models and deploy the best performing model.
+This project is part of the Udacity Azure ML Nanodegree. In this project, two models were created: one using Automated ML and one customized model whose hyperparameters are tuned using HyperDrive. The main objetive is to compare compare the performance of both the models and deploy the best performing model.  
+
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/starter_file/Project%20Flowchart.png))
 
 
 ## Dataset
 
 ### Overview
-The data you are using is related to red variants of the Portuguese "Vinho Verde" wine.  and I got it from UC Irvine Machine Learning Repository
+The data that I am using is related to red variants of the Portuguese "Vinho Verde" wine.  and I got it from UC Irvine Machine Learning Repository
 
 ### Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
