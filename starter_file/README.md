@@ -4,7 +4,13 @@ This project is part of the Udacity Azure ML Nanodegree. In this project, two mo
 
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/starter_file/Project%20Flowchart.png))
 
-
+## Project Setup and Installation
+In order to run this project the following files need to be used:
+- **automl.ipynb**: Jupyter Notebook to run the autoML experiment
+- **hyperparameter_tuning.ipynb**: Jupyter Notebook to run the Hyperdrive experiment
+- **train.py**. Script used in Hyperdrive
+- **score.py**. Script used to deploy the model
+- **winequality-red.csv**. The dataset used in this project
 ## Dataset
 
 ### Overview
