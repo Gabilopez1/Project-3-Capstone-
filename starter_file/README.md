@@ -14,10 +14,10 @@ In order to run this project the following files need to be used:
 ## Dataset
 
 ### Overview
-The data that I am using is related to red variants of the Portuguese "Vinho Verde" wine.  and I got it from UC Irvine Machine Learning Repository
+The dataset that I am using is collection variants of the Portuguese "Vinho Verde" red  wine. The dataset can be found on UC Irvine Machine Learning Repository on the following address https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv . This Dataset contain  physicochemical (inputs) and sensory (the output) variables.
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+The inputs include objective tests (e.g. PH values) and the output is based on sensory data (median of at least 3 evaluations made by wine experts). Each expert graded the wine quality between 0 (very bad) and 10 (very excellent). The objetive is able to  detect what are the characteristics that make a good or bad wine.
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
