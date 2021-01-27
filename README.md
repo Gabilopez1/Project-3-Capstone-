@@ -54,6 +54,10 @@ From that list the best performing algoritm was Voting Ensemble with an accuracy
 The best model ID is show in this next screenshot:
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/modelidbest.PNG)
 
+And its parameters of the best model are the followed:
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/fittedmodel%20automl1.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/fittedmodel%20automl2.PNG)
+
 
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
