@@ -80,7 +80,7 @@ Finally the best model was saved:
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/savemodelhyper.PNG)
 
 From this graph, I can infer that with a higher max interations I could increase the level of accuracy better than the value for Regularization. Anyways the accuracy obtained on on the Automl was higher than the one obtained  choosing the parameters for the Hyperdrive.
-![alt text] (https://github.com/Gabilopez1/nd00333-capstone/blob/master/graphhyper.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/graphhyper.PNG)
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
