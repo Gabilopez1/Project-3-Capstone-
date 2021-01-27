@@ -49,7 +49,7 @@ There are also some missing features values on free sulfur dioxide and total sul
 From that list the best performing algoritm was Voting Ensemble with an accuracy of 0.6669
 
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetaccuracyautoml.PNG)
-![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetaccuracyautoml.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/azure%20learning%20studio%20best%20model.PNG)
 
 
 
