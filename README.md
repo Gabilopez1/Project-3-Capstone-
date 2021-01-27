@@ -64,7 +64,7 @@ What I also noticed is that the accuracy is rather low, what made think that the
 For the hyperameter tuning using Hyperdrive, the Dataset was treated with an assigned Scikit learn model of Logistic Regression, which is a  common supervised learning linear model for classification. The goal was to test and choose the Hyperparameter variables for later use in the Hyperdrive. The metric to seek for the best run was Accuracy.
 The tuning of the parameter was performed by changing the values of C (Inverse of regularization strength. Smaller values cause stronger regularization) and max_iter(Maximum number of iteration to converge). I also used bandit policy to stop a run if the target performance metric underperforms the best run so far by a specific margin, in this example the policy is applied for every iteration after the first five and abandons runs where the reported target metric is 0.1 or worse than the best performing run in an evaluation interval of 2, which is the frequency for applying the policy. The interval increases each time the training script logs the primary metric.
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/hyperdriveconfig1.PNG)
-
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/hyperdriveconfig2.PNG)
 
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
