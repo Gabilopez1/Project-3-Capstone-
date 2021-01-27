@@ -35,9 +35,14 @@ To run AutoML a set of parameters were chosen in an AutoML Configuration, for th
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
-![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/automl%20setting%20version1.PNG)
-
-
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml1.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml2.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml3.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml4.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml5.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml6.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml7.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml8.PNG)
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
