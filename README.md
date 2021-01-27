@@ -23,13 +23,14 @@ The inputs include objective tests (e.g. PH values) and the output is based on s
 
 For  Automated ML  I first upload the csv file with the Visual Studio with the Dataset and assigned it a key, then with the code of the Jupiter notebook (ws.datasets.keys()) I  load the dataset from the Workspace that match the key that I previous choose. 
 
-For customized Hyperparameter with the Hyperdrive I use Dataset.Tabular.from_delimited_files() on  the python file Train.py, this last one is called on the Script Run Configuration on the Jupyter Notebook for the Hiperdrive.
+For customized Hyperparameter with the Hyperdrive I use Dataset.Tabular.from_delimited_files() on  the python file Train.py, this last one is called on the Script Run Configuration on the Jupyter Notebook for the Hyperdrive.
 
 
 ## Automated ML
 
 The following screenshot shows  the `automl` settings and configuration you used for this experiment.
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/automl%20setting%20version1.PNG)
+To run AutoML a set of parameters were chosen in an AutoML Configuration, for this case a timeout time of 30 minutes was used, the task was defined as classification, the primary metric was  ccuracy as it was in scklearn and the label column name "quality", which is the goal to predict the quality of wine.
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
