@@ -69,10 +69,10 @@ The tuning of the parameter was performed by changing the values of C (Inverse o
 
 ### Results
 The next screenshots shows the `RunDetails` widget with the 4 runs
-(https://github.com/Gabilopez1/nd00333-capstone/blob/master/hyperdrivecomplete.PNG)
-(https://github.com/Gabilopez1/nd00333-capstone/blob/master/bestrunwidgetaccuracy.PNG)
-(https://github.com/Gabilopez1/nd00333-capstone/blob/master/savemodelhyper.PNG)
-(https://github.com/Gabilopez1/nd00333-capstone/blob/master/run6hyperdrivemetrics.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/hyperdrivecomplete.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/bestrunwidgetaccuracy.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/savemodelhyper.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/run6hyperdrivemetrics.PNG)
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
