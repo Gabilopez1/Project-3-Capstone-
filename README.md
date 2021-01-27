@@ -71,10 +71,14 @@ The tuning of the parameter was performed by changing the values of C (Inverse o
 The next screenshots shows the `RunDetails` widget with the 4 runs
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/hyperdrivecomplete.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/bestrunwidgetaccuracy.PNG)
-![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/savemodelhyper.PNG)
+
+
+The accuracy of the best run was of  0.5836, with 0.8 value for Regularization Strengh and --150 for max iterations as you can see in the next Screenshot:
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/hyperbestrun.PNG)
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+Finally the best model was saved:
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/savemodelhyper.PNG)
+
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
