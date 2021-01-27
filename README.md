@@ -43,6 +43,7 @@ To run AutoML a set of parameters were chosen in an AutoML Configuration, for th
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml6.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml7.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml8.PNG)
+
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
