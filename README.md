@@ -1,4 +1,4 @@
-# Portuguese Red Wine Quality Data Set
+# Portuguese Red Wine Quality Dataset
 
 This project is part of the Udacity Azure ML Nanodegree. In this project, two models were created: one using Automated ML and one customized model whose hyperparameters are tuned using HyperDrive. The main objetive is to compare compare the performance of both the models and deploy the best performing model.  
 
@@ -84,6 +84,11 @@ From the next graph for this screeshot, I can infer that with a higher max inter
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+As already discussed, the model trained with Automl obtained better accuracy (0.66693) than the model trained with the Hyperdrive (0.5836).Since the best performing model needs to be deployed, I choose the model from Automl.
+
+The process to deploy started registering the model and obtaining all the files needed to perfomed the task. After that, we need to create an Enviroment and Inference with help on conda depencencies and also a python script (score.py) which gives the instrution for the initialization and the exit function. Azure Container Instance was used to deploy.
+
+Initially, the best model is registered and it's necessary files are downloaded.Then the Environment and inference is created with the help of required conda dependencies and score.py script file which has the intialization and exit function defined for the best model and the model is deployed with ACI(Azure Container Instance) and configurations such as cpu_cores=1, memory_gb=1.Once the deployment is sucessful, applications insights is enabled and the state of the service is verified.Then the behaviour of the endpoint is analyzed and the service is deleted
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
