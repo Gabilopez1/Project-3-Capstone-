@@ -35,6 +35,7 @@ To run AutoML a set of parameters were chosen in an AutoML Configuration, for th
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
+The following screenshot were obtained with the `RunDetails` widget  for the automated ML model. For the first part the 4 Data Guardrail
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml1.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml2.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml3.PNG)
