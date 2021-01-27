@@ -30,7 +30,7 @@ For customized Hyperparameter with the Hyperdrive I use Dataset.Tabular.from_del
 
 The following screenshot shows  the `automl` settings and configuration you used for this experiment.
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/automl%20setting%20version1.PNG)
-To run AutoML a set of parameters were chosen in an AutoML Configuration, for this case a timeout time of 20 minutes was used and  a maximun number of 5 iterations that could interact on paralell, the task was defined as classification, the primary metric is accuracy and the label column name "quality", which is the goal to predict the quality of wine. I also enable an early stopping policy to avoid overfitting aand the featurization was set automatically. 
+To run AutoML a set of parameters were chosen in an AutoML Configuration, for this case a timeout time of 20 minutes was used and  a maximun number of 5 iterations that could interact on paralell. The task was defined as classification, the primary metric is accuracy and the label column name "quality", which is the goal to predict the quality of wine. I also enable an early stopping policy to avoid overfitting aand the featurization was set automatically. 
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
