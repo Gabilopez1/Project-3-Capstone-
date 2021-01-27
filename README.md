@@ -46,7 +46,13 @@ There are also some missing features values on free sulfur dioxide and total sul
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml7.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml8.PNG)
 
-From that list the best performing algoritm was Voting Ensemble with an accuracy of 0.91683
+From that list the best performing algoritm was Voting Ensemble with an accuracy of 0.6669
+
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetaccuracyautoml.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetaccuracyautoml.PNG)
+
+
+
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
