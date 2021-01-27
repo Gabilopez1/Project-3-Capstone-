@@ -34,8 +34,9 @@ The following screenshot shows  the `automl` settings and configuration you used
 To run AutoML a set of parameters were chosen in an AutoML Configuration, for this case a timeout time of 20 minutes was used and  a maximun number of 5 iterations that could interact on paralell. The task was defined as classification, the primary metric is accuracy and the label column name "quality", which is the goal to predict the quality of wine. I also enable an early stopping policy to avoid overfitting aand the featurization was set automatically. 
 
 ### Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
-The following screenshot were obtained with the `RunDetails` widget  for the automated ML model. For the first part the 4 Data Guardrail
+
+The following screenshot were obtained with the `RunDetails` widget  for the automated ML model. For the first part the 4 Data Guardrail were performed.  Each iteration of the trained model was validated through cross-validation. Class balancing got alerted, founding that imbalanced data was detected, which can lead to a fasely perceived positive effect of a model's accuracy, because the input data has bias towards one class. This could be adressed on future work, there are many more normal wines than excellent or poor wines. One way to improve this is to obtained more data of the other classes.
+There are also some missing features values on free sulfur dioxide and total sulfur dioxide, but I guess this didn't disturbed the result much.  The high cardinality feature detection obtained a no cardinality. After the Data Guardrail a summary of the pipeline being evaluated and the best observed score so far were shown.
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml1.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml2.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/widgetautoml3.PNG)
