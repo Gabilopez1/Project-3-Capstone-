@@ -29,7 +29,7 @@ For customized Hyperparameter with the Hyperdrive I use Dataset.Tabular.from_del
 ## Automated ML
 
 The following screenshot shows  the `automl` settings and configuration you used for this experiment.
-![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/starter_file/Project%20Flowchart.png)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/automl%20setting%20version1.PNG)
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
