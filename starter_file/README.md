@@ -20,16 +20,16 @@ The dataset that I am using is collection of variants of the Portuguese "Vinho V
 The inputs include objective tests (e.g. PH values) and the output is based on sensory data (median of at least 3 evaluations made by wine experts). Each expert graded the wine quality between 0 (very bad) and 10 (very excellent). The objetive is able to  detect what are the characteristics that make a good or bad wine.
 
 ### Access
-*TODO*: Explain how you are accessing the data in your workspace.
+
 For  Automated ML  I first upload the csv file with the Visual Studio with the Dataset and assigned it a key, then with the code of the Jupiter notebook (ws.datasets.keys()) I  load the dataset from the Workspace that match the key that I previous choose. 
 
 For customized Hyperparameter with the Hyperdrive I use Dataset.Tabular.from_delimited_files() on  the python file Train.py, this last one is called on the Script Run Configuration on the Jupyter Notebook for the Hiperdrive.
 
 
-# NOTE: update the key to match the dataset name
-
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+
+The following screenshot shows  the `automl` settings and configuration you used for this experiment.
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/starter_file/Project%20Flowchart.png)
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
