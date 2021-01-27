@@ -58,11 +58,10 @@ And its parameters of the best model are the followed:
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/fittedmodel%20automl1.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/fittedmodel%20automl2.PNG)
 
-
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+What I also noticed is that the accuracy is rather low, what made think that the issue with not balanced classes is the main factor to push the accuracy down.
 
 ## Hyperparameter Tuning
+For the hyperameter tuning using Hyperdrive 
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
 
