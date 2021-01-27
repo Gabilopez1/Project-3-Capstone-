@@ -72,7 +72,7 @@ The next screenshots shows the `RunDetails` widget with the 4 runs
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/hyperdrivecomplete.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/bestrunwidgetaccuracy.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/savemodelhyper.PNG)
-![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/run6hyperdrivemetrics.PNG)
+![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/hyperbestrun.PNG)
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
