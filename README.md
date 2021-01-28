@@ -78,7 +78,7 @@ The accuracy of the best run was of  0.5836, with 0.8 value for Regularization S
 
 
 Finally the best model was saved:
-![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/blob/master/savemodelhyper.PNG)
+![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/hyperbestrun.PNG)
 
 From the next graph for this screeshot, I can infer that with a higher max interations I could increase the level of accuracy better than the value for Regularization, that it show to have better results with lower value. Anyways the accuracy obtained on on the Automl was higher than the one obtained  choosing the parameters for the Hyperdrive.
 ![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/graphhyper.PNG)
