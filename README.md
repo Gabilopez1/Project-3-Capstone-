@@ -76,6 +76,7 @@ The next screenshots shows the `RunDetails` widget with the 4 runs
 The accuracy of the best run was of  0.5836, with 0.8 value for Regularization Strengh and --150 for max iterations as you can see in the next Screenshot:
 ![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/hyperbestrun.PNG)
 
+
 Finally the best model was saved:
 ![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/blob/master/savemodelhyper.PNG)
 
