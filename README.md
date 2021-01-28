@@ -48,8 +48,8 @@ There are also some missing features values on free sulfur dioxide and total sul
 
 From that list the best performing algoritm was Voting Ensemble with an accuracy of 0.66693, what it can also be see on the Visual Studio.
 
-![alt text](https://github.com/Gabilopez1/Project-3-Capstone-blob-/master/widgetaccuracyautoml.PNG)
-![alt text](https://github.com/Gabilopez1/Project-3-Capstone-blob-/master/azure%20learning%20studio%20best%20model.PNG)
+![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/widgetaccuracyautoml.PNG)
+![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/azure%20learning%20studio%20best%20model.PNG)
 
 The best model ID is show in this next screenshot:
 ![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/modelidbest.PNG)
