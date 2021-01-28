@@ -48,8 +48,8 @@ There are also some missing features values on free sulfur dioxide and total sul
 
 From that list the best performing algoritm was Voting Ensemble with an accuracy of 0.66693, what it can also be see on the Visual Studio.
 
-![alt text](https://github.com/Gabilopez1/Project-3-Capstone-blob/master/widgetaccuracyautoml.PNG)
-![alt text](https://github.com/Gabilopez1/Project-3-Capstone-blob/master/azure%20learning%20studio%20best%20model.PNG)
+![alt text](https://github.com/Gabilopez1/Project-3-Capstone-blob-/master/widgetaccuracyautoml.PNG)
+![alt text](https://github.com/Gabilopez1/Project-3-Capstone-blob-/master/azure%20learning%20studio%20best%20model.PNG)
 
 The best model ID is show in this next screenshot:
 ![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/modelidbest.PNG)
@@ -83,7 +83,7 @@ From the next graph for this screeshot, I can infer that with a higher max inter
 ![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/graphhyper.PNG)
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+
 As already discussed, the model trained with Automl obtained better accuracy (0.66693) than the model trained with the Hyperdrive (0.5836).Since the best performing model needs to be deployed, I choose the model from Automl.
 
 The process to deploy started registering the model and obtaining all the files needed to perfomed the task. Azure Container Instance was used to deploy. Next we need to define the Deployment and also enable application insight inside.  After that, we need to create an Enviroment and Inference with help on conda depencencies and also a python script (score.py) which gives the instrution for the initialization and the exit function. Next create the service and start the deployment.  Finally send a request to the web service  deployed to test it. Not forget to print logs. As last step, the service has to delete it and also the compute cluster to save money on Azure cost.
