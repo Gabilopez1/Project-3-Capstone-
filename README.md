@@ -58,7 +58,7 @@ And its parameters of the best model are the followed:
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/fittedmodel%20automl1.PNG)
 ![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/fittedmodel%20automl2.PNG)
 
-What I also noticed is that the accuracy is rather low, what made think that the issue with not balanced classes is the main factor to push the accuracy down.
+What I also noticed is that the accuracy is rather low, what made think that the issue with imbalanced classes is the main factor to push the accuracy down. I believed we will need to apply some tecniques to solve the class imbalance problem, like Resampling.
 
 ## Hyperparameter Tuning
 For the hyperameter tuning using Hyperdrive, the Dataset was treated with an assigned Scikit learn model of Logistic Regression, which is a  common supervised learning linear model for classification. The goal was to test and choose the Hyperparameter variables for later use in the Hyperdrive. The metric to seek for the best run was Accuracy.
@@ -86,9 +86,10 @@ From the next graph for this screeshot, I can infer that with a higher max inter
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 As already discussed, the model trained with Automl obtained better accuracy (0.66693) than the model trained with the Hyperdrive (0.5836).Since the best performing model needs to be deployed, I choose the model from Automl.
 
-The process to deploy started registering the model and obtaining all the files needed to perfomed the task. After that, we need to create an Enviroment and Inference with help on conda depencencies and also a python script (score.py) which gives the instrution for the initialization and the exit function. Azure Container Instance was used to deploy.
+The process to deploy started registering the model and obtaining all the files needed to perfomed the task. Azure Container Instance was used to deploy. Next we need to define the Deployment and also enable application insight inside.  After that, we need to create an Enviroment and Inference with help on conda depencencies and also a python script (score.py) which gives the instrution for the initialization and the exit function. Next create the service and start the deployment.  Finally send a request to the web service  deployed to test it. Not forget to print logs. As last step, the service has to delete it and also the compute cluster to save money on Azure cost.
 
-Initially, the best model is registered and it's necessary files are downloaded.Then the Environment and inference is created with the help of required conda dependencies and score.py script file which has the intialization and exit function defined for the best model and the model is deployed with ACI(Azure Container Instance) and configurations such as cpu_cores=1, memory_gb=1.Once the deployment is sucessful, applications insights is enabled and the state of the service is verified.Then the behaviour of the endpoint is analyzed and the service is deleted
+![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/Deploydefine.PNG)
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
