@@ -2,7 +2,7 @@
 
 This project is part of the Udacity Azure ML Nanodegree. In this project, two models were created: one using Automated ML and one customized model whose hyperparameters are tuned using HyperDrive. The main objetive is to compare compare the performance of both the models and deploy the best performing model.  
 
-![alt text](https://github.com/Gabilopez1/nd00333-capstone/blob/master/starter_file/Project%20Flowchart.png)
+![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/Project%20Flowchart.png)
 
 ## Project Setup and Installation
 In order to run this project the following files need to be used:
