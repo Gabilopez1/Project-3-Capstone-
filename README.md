@@ -90,6 +90,16 @@ The process to deploy started registering the model and obtaining all the files 
 
 ![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/Deploydefine.PNG)
 
+### Consume model deployed
+
+After the deploying the model as a web service, a Endpoint  was created. To test it, one need to send data with similar information as the dataset and if everything went fine a prediction answer is expected.In my experiment a sent, two list of Data and received a number of the predicted quality of wine, in this case 5.
+
+Next screenshot shows the Endpoint on the Visual Studio and also the test of the Endpoint.
+
+![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/endpointlaunch.PNG)
+![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/endpointdemo-deploy.PNG)
+![alt text](https://github.com/Gabilopez1/Project-3-Capstone-/blob/master/consumeendpoint.PNG)
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
