@@ -108,10 +108,9 @@ The next screenshot shows the Endpoint on the Visual Studio and also the test of
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+
+Here you find the link to the screencast video for the project:
+
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted
+There are a few additional things I would like to try next time to improve this project. First I would try to convert the model to a ONNX format, then Deploy the model to the Edge using Azure IoT Edge. Also, Enable logging into the deployed web app.  As already mentioned early, the dataset is imbalanced, so it would be reasonable to change the performance metric since accuracy is not the best metric to use when evaluating imbalanced datasets as it can be very misleading. Maybe is possible to change the algorithm or apply resampling Techniques.  
